@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(255, 185, 185);
+}
+.container{
+    display: flex;
+}
+a{
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-bottom: 60px;
+    height: 100px;
+    background-color: rgb(158, 34, 34);
+    text-align: center;
+    padding-top: 30px;
+    font-size: 50px;
+    flex: 1;
+    transition: .3s all ease;
+    text-decoration: none;
+    color: rgb(255, 134, 134);
+}
+a:hover{
+    flex: 2;
+    background-color: rgb(255, 134, 134);
+    color: rgb(158, 34, 34);
+}
+span{
+    font-size: 100px;
+    margin-left: 20%;
+    color:rgb(220, 72, 72);
+}
+a:active{
+    color: rgb(158, 34, 34);
+}
